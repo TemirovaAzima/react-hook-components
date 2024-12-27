@@ -1,15 +1,13 @@
-import {ComponentOne} from './components/ComponentOne.jsx'
-import ComponentTwo from './components/ComponentTwo.jsx'
+import ExampleOne from './components/ExampleOne.jsx'
 import {useState} from 'react'
+import {ExampleTwo} from './components/ExampleTwo.jsx'
 
 function App() {
-     const [number, setNumber]= useState(0);
-     const [decrement, setDecrement] = useState(0)
 
     return(
         <section>
-            <ComponentOne number={number} setNumber={()=>setNumber(number+1)} className={'decrement'}/>
-            <ComponentTwo decrement={decrement} setDecrement={()=>setDecrement(decrement-1)} className={'decrement'}/>
+            <ExampleOne/>
+            <ExampleTwo/>
         </section>
 
     )
