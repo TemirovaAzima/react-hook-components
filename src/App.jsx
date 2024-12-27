@@ -1,13 +1,16 @@
-import ExampleOne from './components/ExampleOne.jsx'
+
 import {useState} from 'react'
-import {ExampleTwo} from './components/ExampleTwo.jsx'
+import TodoList from './components/TodoList.jsx'
+import Profile from './components/Profile.jsx'
+import ShoppingList from './components/ShoppingList.jsx'
 
 function App() {
 
     return(
         <section>
-            <ExampleOne/>
-            <ExampleTwo/>
+          <TodoList/>
+            <Profile/>
+            <ShoppingList/>
         </section>
 
     )
